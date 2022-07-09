@@ -145,3 +145,63 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+
+@media screen and (max-width: 400px) {
+  .todo-app {
+    width: 300px;
+    min-height: 400px;
+    margin: 180px auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  
+  h1 {
+    margin: 25px 0;
+    font-size: 16px;
+  }
+  
+  .todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    padding: 8px 10px 8px 20px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    width: 150px;
+  }
+  
+  .todo-button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .todo-input.edit {
+    border: 2px solid #149fff;
+  }
+  
+  .todo-button.edit {
+    padding: 10px 10px;
+  }
+  
+  .todo-row {
+    margin: 5px auto;
+    padding: 12px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 8px;
+    color: #fff;
+  }
+}
